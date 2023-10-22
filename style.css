@@ -1,0 +1,1435 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background: none;
+    box-sizing: content-box;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    body {
+        background: pink;
+    }
+
+    .cabecera {
+        position: absolute;
+        width: 51vw;
+        height: 70vh;
+        right: 50vw;
+        z-index: 1;
+        clip-path: inset(0px 0px 210px 0px);
+
+    }
+
+    .cabecera2 {
+        width: 50vw;
+        height: 70vh;
+        position: absolute;
+        left: 50%;
+        z-index: 1;
+        clip-path: inset(0px 0px 210px 0px);
+
+    }
+
+    .logocabecera {
+        position: absolute;
+        width: 20vw;
+        height: 20vw;
+        bottom: 92%;
+        left: 40%;
+        z-index: 1;
+
+
+    }
+
+    footer {
+        display: flex;
+        margin-top: 28%;
+    }
+
+    .footer {
+
+        rotate: 180deg;
+        width: 50vw;
+        height: 6vh;
+
+
+    }
+
+    .footer2 {
+
+        rotate: 180deg;
+        width: 50vw;
+        height: 6vh;
+
+
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .link1 {
+        position: relative;
+        bottom: 30.2vh;
+        left: 36vw;
+        z-index: 1;
+
+
+    }
+
+    .link1 :hover {
+        transform: scale(2, 2);
+    }
+
+    .link2 {
+        position: relative;
+        bottom: 26.5vh;
+        left: 10vw;
+        z-index: 1;
+
+    }
+
+    .link2 :hover {
+        transform: scale(2, 2);
+    }
+
+    .link3 {
+        position: relative;
+        bottom: 22.7vh;
+        right: 15%;
+        z-index: 1;
+
+    }
+
+    .link3 :hover {
+        transform: scale(2, 2);
+    }
+
+    .link4 {
+        position: relative;
+        bottom: 32.5vh;
+        left: 36vw;
+        z-index: 1;
+
+    }
+
+    .link4 :hover {
+        transform: scale(2, 2);
+    }
+
+    .link5 {
+        position: relative;
+        bottom: 28.7vh;
+        left: 11vw;
+        z-index: 1;
+
+    }
+
+    .link5 :hover {
+        transform: scale(2, 2);
+    }
+
+
+
+
+
+    .iconlink {
+        height: 13vh;
+        width: 25vw;
+        clip-path: inset(31px 10.5px 31px 10.5px)
+    }
+
+    .create {
+        position: absolute;
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 30%;
+        margin-top: 3%;
+
+    }
+
+    .contenedorc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pcontact {
+        position: absolute;
+        left: 31%;
+        top: 70vh;
+        text-align: center;
+        font-size: 15px;
+        z-index: 1;
+        width: 40vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .truck {
+        position: relative;
+        height: 25vh;
+        width: 38vh;
+        bottom: 70Vh;
+    }
+
+    .pcontact2 {
+        position: relative;
+        top: 104vh;
+        text-align: center;
+        font-size: 12px;
+        z-index: 1;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 90vw;
+    }
+
+    .Email {
+        text-decoration: none;
+        color: black;
+        align-self: center;
+        position: relative;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    }
+
+
+    .Phone {
+        text-decoration: none;
+        color: black;
+
+        position: relative;
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        margin-left: 7vh;
+
+    }
+
+
+    .marcocontact {
+        width: 95vw;
+        height: 80vh;
+        position: relative;
+        top: 27vh;
+        z-index: 0;
+    }
+
+
+    .menu {
+        height: 26vh;
+        width: 30vh;
+        z-index: 1;
+        padding: 30% 0% 100% 0%;
+    }
+
+    .contenedora {
+        display: flex;
+        flex-direction: row;
+        margin-top: 25%;
+    }
+
+    .aboutimg {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 30%;
+        margin-left: 35%;
+
+    }
+
+
+    .menu:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .abouttext {
+        position: absolute;
+        padding: 35% 15%;
+        z-index: 1;
+        font-size: 10px;
+        width: 70vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    .textaboutus1 {
+        position: relative;
+
+        margin-top: 45%;
+        text-align: justify;
+
+    }
+
+    .textaboutus2 {
+        position: relative;
+        text-align: justify;
+        margin-top: 90%;
+    }
+
+    .textaboutus3 {
+        position: relative;
+        text-align: justify;
+        margin-top: 85%;
+
+    }
+
+
+
+
+
+    .banner {
+        width: 90vw;
+        height: 20vh;
+        padding: 5%;
+
+
+    }
+
+    .twoicecream {
+        width: 25vh;
+        height: 25vh;
+        padding: 5%;
+
+
+    }
+
+    .textmain {
+        font-size: 13px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .mainm {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30%;
+    }
+
+
+
+
+    .hh2 {
+
+        position: relative;
+
+
+        z-index: 1;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .hh1 {
+
+        position: relative;
+        margin-top: 27vh;
+
+        z-index: 1;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+    #conteinerI {
+        display: flex;
+        justify-content: center;
+        margin-top: 17vh;
+        height: 41.5vh;
+
+    }
+
+    table,
+    th,
+    td,
+    tr {
+        border: 2px solid rgb(88, 5, 33);
+        text-align: center;
+        z-index: 1;
+        align-self: center;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+
+    }
+
+    .IBT {
+        display: flex;
+        height: 15vh;
+        width: 15vh;
+        border: 5px double rgb(88, 5, 33);
+
+
+    }
+
+    #Bt {
+        display: flex;
+        border: 5px double rgb(88, 5, 33);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        width: 90vw;
+        height: 150px;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 2vw;
+        margin-top: 16vh;
+        padding-left: 1vh;
+
+        background-color: palevioletred;
+        z-index: 2;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+
+
+    #Bt2 {
+        display: flex;
+        border: 5px double rgb(88, 5, 33);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        width: 90vw;
+        height: 150px;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 2%;
+        margin-left: 2vw;
+        padding-left: 1vh;
+        background-color: palevioletred;
+        z-index: 2;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+
+    .boxbt {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul {
+        margin-left: 5vh;
+    }
+
+    #textbt {
+        align-self: center;
+        margin-top: 2%;
+        transform: none;
+    }
+
+    .encabezado {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15vw;
+        z-index: 1;
+    }
+
+    .linea {
+        text-decoration-line: underline;
+        font-size: 14px;
+        z-index: 1;
+        width: 80vw;
+    }
+
+    .h2R {
+        z-index: 1;
+        font-size: 17px;
+        margin-top: 10vh;
+    }
+
+    .contenedorr {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+
+    .tmapa {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 2%;
+
+    }
+
+    .PR {
+        text-align: center;
+        margin-top: 5vh;
+        align-self: center;
+    }
+
+    .mapa {
+        display: flex;
+        width: 280px;
+        height: 280px;
+        border: 4px solid #601127;
+        margin-top: 5vh;
+        align-self: center;
+
+    }
+
+
+    .datosR {
+        border: 4px solid #601127;
+        padding: 1% 2% 1% 2%;
+        background-color: #bb446d;
+        margin-top: 2%;
+
+        align-self: center;
+
+    }
+
+    header {
+        height: 150px;
+    }
+
+    .colorC {
+        background-color: antiquewhite;
+        border: 2px solid #601127;
+    }
+
+}
+
+@media only screen and (min-width:769px) and (max-width:1023px) {
+
+    body {
+        background: pink;
+    }
+
+    .cabecera {
+        position: absolute;
+        width: 51vw;
+        height: 70vh;
+        right: 50vw;
+        z-index: 1;
+        clip-path: inset(0px 0px 210px 0px);
+
+    }
+
+    .cabecera2 {
+        width: 50vw;
+        height: 70vh;
+        position: absolute;
+        left: 50%;
+        z-index: 1;
+        clip-path: inset(0px 0px 210px 0px);
+
+    }
+
+    .logocabecera {
+        position: absolute;
+        width: 20vw;
+        height: 20vw;
+        bottom: 92%;
+        left: 40%;
+        z-index: 1;
+
+
+    }
+
+    footer {
+        display: flex;
+        margin-top: 28%;
+    }
+
+    .footer {
+
+        rotate: 180deg;
+        width: 50vw;
+        height: 6vh;
+
+
+    }
+
+    .footer2 {
+
+        rotate: 180deg;
+        width: 50vw;
+        height: 6vh;
+
+
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .link1 {
+        position: relative;
+        bottom: 30.2vh;
+        left: 36vw;
+        z-index: 1;
+
+
+    }
+
+    .link1 :hover {
+        transform: scale(2, 2);
+    }
+
+    .link2 {
+        position: relative;
+        bottom: 26.5vh;
+        left: 10vw;
+        z-index: 1;
+
+    }
+
+    .link2 :hover {
+        transform: scale(2, 2);
+    }
+
+    .link3 {
+        position: relative;
+        bottom: 22.7vh;
+        right: 15%;
+        z-index: 1;
+
+    }
+
+    .link3 :hover {
+        transform: scale(2, 2);
+    }
+
+    .link4 {
+        position: relative;
+        bottom: 32.5vh;
+        left: 36vw;
+        z-index: 1;
+
+    }
+
+    .link4 :hover {
+        transform: scale(2, 2);
+    }
+
+    .link5 {
+        position: relative;
+        bottom: 28.7vh;
+        left: 11vw;
+        z-index: 1;
+
+    }
+
+    .link5 :hover {
+        transform: scale(2, 2);
+    }
+
+
+
+
+
+    .iconlink {
+        height: 13vh;
+        width: 25vw;
+        clip-path: inset(31px 10.5px 31px 10.5px)
+    }
+
+    .create {
+        position: absolute;
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-left: 30%;
+        margin-top: 3%;
+
+    }
+
+    .contenedorc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pcontact {
+        position: absolute;
+        left: 31%;
+        top: 70vh;
+        text-align: center;
+        font-size: 15px;
+        z-index: 1;
+        width: 40vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .truck {
+        position: relative;
+        height: 25vh;
+        width: 38vh;
+        bottom: 70Vh;
+    }
+
+    .pcontact2 {
+        position: relative;
+        top: 104vh;
+        text-align: center;
+        font-size: 12px;
+        z-index: 1;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 90vw;
+    }
+
+    .Email {
+        text-decoration: none;
+        color: black;
+        align-self: center;
+        position: relative;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    }
+
+
+    .Phone {
+        text-decoration: none;
+        color: black;
+
+        position: relative;
+
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        margin-left: 7vh;
+
+    }
+
+
+    .marcocontact {
+        width: 95vw;
+        height: 80vh;
+        position: relative;
+        top: 27vh;
+        z-index: 0;
+    }
+
+
+    .menu {
+        height: 26vh;
+        width: 30vh;
+        z-index: 1;
+        padding: 30% 0% 100% 0%;
+    }
+
+    .contenedora {
+        display: flex;
+        flex-direction: row;
+        margin-top: 25%;
+    }
+
+    .aboutimg {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 30%;
+        margin-left: 35%;
+
+    }
+
+
+    .menu:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .abouttext {
+        position: absolute;
+        padding: 35% 15%;
+        z-index: 1;
+        font-size: 10px;
+        width: 70vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    .textaboutus1 {
+        position: relative;
+
+        margin-top: 45%;
+        text-align: justify;
+
+    }
+
+    .textaboutus2 {
+        position: relative;
+        text-align: justify;
+        margin-top: 90%;
+    }
+
+    .textaboutus3 {
+        position: relative;
+        text-align: justify;
+        margin-top: 85%;
+
+    }
+
+
+
+
+
+    .banner {
+        width: 90vw;
+        height: 20vh;
+        padding: 5%;
+
+
+    }
+
+    .twoicecream {
+        width: 25vh;
+        height: 25vh;
+        padding: 5%;
+
+
+    }
+
+    .textmain {
+        font-size: 13px;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .mainm {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30%;
+    }
+
+
+
+
+    .hh2 {
+
+        position: relative;
+
+
+        z-index: 1;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .hh1 {
+
+        position: relative;
+        margin-top: 27vh;
+
+        z-index: 1;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+
+    #conteinerI {
+        display: flex;
+        justify-content: center;
+        margin-top: 17vh;
+        height: 41.5vh;
+
+    }
+
+    table,
+    th,
+    td,
+    tr {
+        border: 2px solid rgb(88, 5, 33);
+        text-align: center;
+        z-index: 1;
+        align-self: center;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+
+    }
+
+    .IBT {
+        display: flex;
+        height: 15vh;
+        width: 15vh;
+        border: 5px double rgb(88, 5, 33);
+
+
+    }
+
+    #Bt {
+        display: flex;
+        border: 5px double rgb(88, 5, 33);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        width: 90vw;
+        height: 150px;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 2vw;
+        margin-top: 16vh;
+        padding-left: 1vh;
+
+        background-color: palevioletred;
+        z-index: 2;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+
+
+    #Bt2 {
+        display: flex;
+        border: 5px double rgb(88, 5, 33);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 10px;
+        width: 90vw;
+        height: 150px;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 2%;
+        margin-left: 2vw;
+        padding-left: 1vh;
+        background-color: palevioletred;
+        z-index: 2;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+
+    .boxbt {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul {
+        margin-left: 5vh;
+    }
+
+    #textbt {
+        align-self: center;
+        margin-top: 2%;
+        transform: none;
+    }
+
+    .encabezado {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15vw;
+        z-index: 1;
+    }
+
+    .linea {
+        text-decoration-line: underline;
+        font-size: 14px;
+        z-index: 1;
+        width: 80vw;
+    }
+
+    .h2R {
+        z-index: 1;
+        font-size: 17px;
+        margin-top: 10vh;
+    }
+
+    .contenedorr {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+
+    .tmapa {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 2%;
+
+    }
+
+    .PR {
+        text-align: center;
+        margin-top: 5vh;
+        align-self: center;
+    }
+
+    .mapa {
+        display: flex;
+        width: 280px;
+        height: 280px;
+        border: 4px solid #601127;
+        margin-top: 5vh;
+        align-self: center;
+
+    }
+
+
+    .datosR {
+        border: 4px solid #601127;
+        padding: 1% 2% 1% 2%;
+        background-color: #bb446d;
+        margin-top: 2%;
+
+        align-self: center;
+
+    }
+
+    header {
+        height: 150px;
+    }
+
+    .colorC {
+        background-color: antiquewhite;
+        border: 2px solid #601127;
+    }
+
+}
+
+
+
+@media only screen and (min-width:1024px) {
+    body {
+        background: pink;
+    }
+
+    .cabecera {
+        position: absolute;
+        width: 51vw;
+        height: 50vh;
+        right: 50vw;
+        z-index: 1;
+        clip-path: inset(0px 0px 150px 0px);
+
+    }
+
+    .cabecera2 {
+        width: 54vw;
+        height: 50vh;
+        position: absolute;
+        left: 46%;
+        z-index: 1;
+        clip-path: inset(0px 0px 150px 0px);
+
+    }
+
+    .logocabecera {
+        position: absolute;
+        width: 10vw;
+        height: 10vw;
+        bottom: 82%;
+        left: 89%;
+        z-index: 1;
+
+
+    }
+
+    .footer {
+        position: absolute;
+        rotate: 180deg;
+        width: 50vw;
+        height: 6vh;
+        top: 93.9%;
+    }
+
+    .footer2 {
+        position: absolute;
+        rotate: 180deg;
+        width: 50vw;
+        height: 6vh;
+        top: 93.9%;
+        left: 50%;
+    }
+
+    .link1 {
+        position: relative;
+        bottom: 13vh;
+        left: 1vw;
+        z-index: 1;
+
+
+    }
+
+    .link1 :hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .link2 {
+        position: relative;
+        bottom: 13vh;
+        right: 2vw;
+        z-index: 1;
+
+    }
+
+    .link2 :hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .link3 {
+        position: relative;
+        bottom: 13vh;
+        right: 5vw;
+        z-index: 1;
+
+    }
+
+    .link3 :hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .link4 {
+        position: relative;
+        bottom: 13vh;
+        right: 8vw;
+        z-index: 1;
+
+    }
+
+    .link4 :hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .link5 {
+        position: relative;
+        bottom: 13vh;
+        right: 11vw;
+        z-index: 1;
+
+    }
+
+    .link5 :hover {
+        transform: scale(1.1, 1.1);
+    }
+
+
+
+
+
+    .iconlink {
+        height: 18vh;
+        width: 10vw;
+    }
+
+    .create {
+        position: absolute;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        top: 96%;
+        left: 40%;
+    }
+
+
+
+    .pcontact {
+        position: absolute;
+        left: 35%;
+        top: 58%;
+        text-align: center;
+        font-size: 20px;
+        z-index: 1;
+    }
+
+    .truck {
+        position: absolute;
+        left: 39%;
+        bottom: 47%;
+        height: 40vh;
+        width: 40vh;
+    }
+
+    .pcontact2 {
+        position: absolute;
+        top: 74%;
+        left: 36%;
+        font-size: 20px;
+        z-index: 1;
+    }
+
+    .Email {
+        text-decoration: none;
+        color: black;
+        top: 80%;
+        position: absolute;
+        left: 36%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+    .Phone {
+        text-decoration: none;
+        color: black;
+        top: 80%;
+        position: absolute;
+        left: 54%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+    }
+
+
+    .marcocontact {
+        width: 53vw;
+        height: 50vh;
+        left: 23%;
+        position: absolute;
+        top: 46%;
+        z-index: 0;
+    }
+
+
+    .menu {
+        height: 16vh;
+        width: 20vh;
+        z-index: 1;
+    }
+
+    .contenedora {
+        display: flex;
+    }
+
+    .aboutimg {
+        display: flex;
+        margin-right: 8%;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 30%;
+        align-items: flex-end;
+    }
+
+
+    .menu:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .abouttext {
+        flex-direction: column;
+        width: 50%;
+        height: 100%;
+        z-index: 1;
+    }
+
+
+    .textaboutus1 {
+        font-size: 20px;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .textaboutus2 {
+        font-size: 20px;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    .textaboutus3 {
+        font-size: 20px;
+        text-align: justify;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    .banner {
+        width: 70vw;
+        height: 30vh;
+        position: absolute;
+        left: 16%;
+    }
+
+    .twoicecream {
+        width: 30vh;
+        height: 30vh;
+        position: absolute;
+        left: 67%;
+        top: 60%;
+    }
+
+    .textmain {
+        position: absolute;
+        top: 64%;
+        right: 25%;
+        font-size: 20px;
+        text-align: center;
+        margin: 0% 15% 0% 20%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .hh2 {
+        position: relative;
+        align-self: center;
+        top: 1%;
+        z-index: 1;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .hh1 {
+        position: relative;
+        align-self: center;
+        top: 3%;
+        z-index: 1;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+    #conteinerI {
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+
+    }
+
+    table,
+    th,
+    td,
+    tr {
+        border: 2px solid rgb(88, 5, 33);
+        text-align: center;
+        z-index: 1;
+        align-self: center;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+
+    }
+
+    .IBT {
+        display: flex;
+        height: 15vh;
+        width: 15vh;
+        border: 5px double rgb(88, 5, 33);
+
+
+    }
+
+    #Bt {
+        display: flex;
+        border: 5px double rgb(88, 5, 33);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        width: 50%;
+        height: 150px;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 23%;
+        margin-top: 2%;
+        text-align: start;
+        background-color: palevioletred;
+        z-index: 2;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    #Bt :hover {
+        transform: none;
+    }
+
+    #Bt2 {
+        display: flex;
+        border: 5px double rgb(88, 5, 33);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        width: 50%;
+        height: 150px;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 23%;
+        margin-top: 2%;
+        text-align: start;
+        background-color: palevioletred;
+        z-index: 2;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    #Bt2 :hover {
+        transform: none;
+    }
+
+    .boxbt {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boxbt :hover {
+        transform: scale(1.7, 1.7);
+    }
+
+    #textbt {
+        align-self: center;
+        margin-top: 2%;
+        transform: none;
+    }
+
+    .encabezado {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20vw;
+
+
+        z-index: 1;
+    }
+
+    .linea {
+        text-decoration-line: underline;
+        font-size: 18px;
+        z-index: 1;
+    }
+
+    .h2R {
+        z-index: 1;
+    }
+
+    .contenedorr {
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+    .tmapa {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 2%;
+
+    }
+
+    .PR {
+        text-align: center;
+        margin-left: 39%;
+    }
+
+    .mapa {
+        width: 300px;
+        height: 300px;
+        border: 4px solid #601127;
+        margin-top: 5%;
+        margin-left: 15vw;
+    }
+
+
+    .datosR {
+        border: 4px solid #601127;
+        padding: 1% 2% 1% 2%;
+        background-color: #bb446d;
+        margin-top: 2%;
+        margin-right: 15%;
+    }
+
+    header {
+        height: 150px;
+    }
+
+    .colorC {
+        background-color: antiquewhite;
+        border: 2px solid #601127;
+    }
+
+}
