@@ -32,10 +32,10 @@
 
     .logocabecera {
         position: absolute;
-        width: 20vw;
-        height: 20vw;
-        bottom: 92%;
-        left: 40%;
+        width: 100px;
+        height: 100px;
+        bottom: 87vh;
+
         z-index: 1;
 
 
@@ -147,8 +147,8 @@
         position: absolute;
         font-size: 10px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-left: 30%;
-        margin-top: 3%;
+        padding-left: 35%;
+        margin-top: 1%;
 
     }
 
@@ -222,12 +222,14 @@
         height: 26vh;
         width: 30vh;
         z-index: 1;
-        padding: 30% 0% 100% 0%;
+        padding-top: 1vh;
+        margin-bottom: 22vh;
+        position: relative;
     }
 
     .contenedora {
         display: flex;
-        flex-direction: row;
+
         margin-top: 25%;
     }
 
@@ -241,39 +243,40 @@
 
     }
 
-
-    .menu:hover {
-        transform: scale(1.1, 1.1);
-    }
-
     .abouttext {
         position: absolute;
-        padding: 35% 15%;
+        padding-left: 15%;
         z-index: 1;
         font-size: 10px;
         width: 70vw;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+
+
+
     }
 
     .textaboutus1 {
         position: relative;
-
-        margin-top: 45%;
         text-align: justify;
+
+        padding-top: 32vh;
+
 
     }
 
     .textaboutus2 {
         position: relative;
         text-align: justify;
-        margin-top: 90%;
+        padding-top: 37vh;
+
+
     }
 
     .textaboutus3 {
         position: relative;
         text-align: justify;
-        margin-top: 85%;
+        padding-top: 37vh;
 
     }
 
@@ -301,6 +304,7 @@
         font-size: 13px;
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 80vw;
     }
 
     .mainm {
@@ -318,7 +322,6 @@
 
         position: relative;
 
-
         z-index: 1;
         font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -327,12 +330,13 @@
     .hh1 {
 
         position: relative;
-        margin-top: 27vh;
+        margin-top: 32vh;
 
         z-index: 1;
         font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+
 
 
 
@@ -414,6 +418,7 @@
 
     ul {
         margin-left: 5vh;
+        width: 40vw;
     }
 
     #textbt {
@@ -425,15 +430,17 @@
     .encabezado {
         display: flex;
         flex-direction: column;
-        margin-left: 15vw;
+        margin-left: 18vw;
+        margin-top: 10vh;
         z-index: 1;
+      
     }
 
     .linea {
         text-decoration-line: underline;
         font-size: 14px;
         z-index: 1;
-        width: 80vw;
+        width: 70vw;
     }
 
     .h2R {
@@ -522,10 +529,10 @@
 
     .logocabecera {
         position: absolute;
-        width: 20vw;
-        height: 20vw;
-        bottom: 92%;
-        left: 40%;
+        width: 100px;
+        height: 100px;
+        bottom: 87vh;
+
         z-index: 1;
 
 
@@ -637,8 +644,8 @@
         position: absolute;
         font-size: 10px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        margin-left: 30%;
-        margin-top: 3%;
+        padding-left: 35%;
+        margin-top: 1%;
 
     }
 
@@ -712,12 +719,14 @@
         height: 26vh;
         width: 30vh;
         z-index: 1;
-        padding: 30% 0% 100% 0%;
+        padding-top: 1vh;
+        margin-bottom: 22vh;
+        position: relative;
     }
 
     .contenedora {
         display: flex;
-        flex-direction: row;
+
         margin-top: 25%;
     }
 
@@ -731,39 +740,40 @@
 
     }
 
-
-    .menu:hover {
-        transform: scale(1.1, 1.1);
-    }
-
     .abouttext {
         position: absolute;
-        padding: 35% 15%;
+        padding-left: 15%;
         z-index: 1;
-        font-size: 10px;
+        font-size: 15px;
         width: 70vw;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
 
     }
 
     .textaboutus1 {
         position: relative;
-
-        margin-top: 45%;
         text-align: justify;
+
+        padding-top: 32vh;
+
 
     }
 
     .textaboutus2 {
         position: relative;
         text-align: justify;
-        margin-top: 90%;
+        padding-top: 37vh;
+
+
     }
 
     .textaboutus3 {
         position: relative;
         text-align: justify;
-        margin-top: 85%;
+        padding-top: 37vh;
 
     }
 
@@ -788,9 +798,11 @@
     }
 
     .textmain {
-        font-size: 13px;
+        font-size: 15px;
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 80vw;
+     
     }
 
     .mainm {
@@ -808,7 +820,6 @@
 
         position: relative;
 
-
         z-index: 1;
         font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -817,7 +828,7 @@
     .hh1 {
 
         position: relative;
-        margin-top: 27vh;
+        margin-top: 32vh;
 
         z-index: 1;
         font-size: 15px;
@@ -861,7 +872,7 @@
         display: flex;
         border: 5px double rgb(88, 5, 33);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 10px;
+        font-size: 15px;
         width: 90vw;
         height: 150px;
         align-items: center;
@@ -869,7 +880,6 @@
         margin-left: 2vw;
         margin-top: 16vh;
         padding-left: 1vh;
-
         background-color: palevioletred;
         z-index: 2;
         border-top-left-radius: 20px;
@@ -882,7 +892,7 @@
         display: flex;
         border: 5px double rgb(88, 5, 33);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 10px;
+        font-size: 15px;
         width: 90vw;
         height: 150px;
         align-items: center;
@@ -915,7 +925,7 @@
     .encabezado {
         display: flex;
         flex-direction: column;
-        margin-left: 15vw;
+        margin-left: 25vw;
         z-index: 1;
     }
 
@@ -926,16 +936,18 @@
         width: 80vw;
     }
 
-    .h2R {
+    .h2R { 
         z-index: 1;
         font-size: 17px;
-        margin-top: 10vh;
+        margin-top: 19vh;
     }
 
     .contenedorr {
         display: flex;
         justify-content: space-around;
         flex-direction: column-reverse;
+
+
     }
 
     .tmapa {
@@ -965,7 +977,7 @@
 
     .datosR {
         border: 4px solid #601127;
-        padding: 1% 2% 1% 2%;
+        padding: 2% 2% 1% 2%;
         background-color: #bb446d;
         margin-top: 2%;
 
@@ -1124,7 +1136,7 @@
         left: 35%;
         top: 58%;
         text-align: center;
-        font-size: 20px;
+        font-size: 15px;
         z-index: 1;
     }
 
@@ -1140,7 +1152,7 @@
         position: absolute;
         top: 74%;
         left: 36%;
-        font-size: 20px;
+        font-size: 15px;
         z-index: 1;
     }
 
@@ -1151,7 +1163,9 @@
         position: absolute;
         left: 36%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
     }
+    
 
 
     .Phone {
@@ -1161,7 +1175,7 @@
         position: absolute;
         left: 54%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 18px;
+        font-size: 15px;
     }
 
 
