@@ -133,10 +133,6 @@
         transform: scale(2, 2);
     }
 
-
-
-
-
     .iconlink {
         height: 13vh;
         width: 25vw;
@@ -629,11 +625,7 @@
     .link5 :hover {
         transform: scale(2, 2);
     }
-
-
-
-
-
+    
     .iconlink {
         height: 13vh;
         width: 25vw;
