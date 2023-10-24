@@ -72,73 +72,88 @@
 
     }
 
+    
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+
+
+
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+       
+
+    }
+
+
     .link1 {
-        position: relative;
-        bottom: 30.2vh;
-        left: 36vw;
+        position: absolute;
+        top: 10vh;
+
+
+
         z-index: 1;
 
 
     }
 
-    .link1 :hover {
-        transform: scale(2, 2);
-    }
+    
 
     .link2 {
-        position: relative;
-        bottom: 26.5vh;
-        left: 10vw;
+        position: absolute;
+        top: 15vh;
+
+
         z-index: 1;
 
     }
 
-    .link2 :hover {
-        transform: scale(2, 2);
-    }
+    
 
     .link3 {
-        position: relative;
-        bottom: 22.7vh;
-        right: 15%;
+        position: absolute;
+        top: 19.8vh;
+
         z-index: 1;
 
     }
 
-    .link3 :hover {
-        transform: scale(2, 2);
-    }
+  
 
     .link4 {
-        position: relative;
-        bottom: 32.5vh;
-        left: 36vw;
+        position: absolute;
+        top: 24.7vh;
+
+
         z-index: 1;
 
     }
 
-    .link4 :hover {
-        transform: scale(2, 2);
-    }
 
     .link5 {
-        position: relative;
-        bottom: 28.7vh;
-        left: 11vw;
+        position: absolute;
+        top: 29.6vh;
+
         z-index: 1;
 
     }
 
-    .link5 :hover {
-        transform: scale(2, 2);
-    }
+   
 
     .iconlink {
-        height: 13vh;
-        width: 25vw;
-        clip-path: inset(31px 10.5px 31px 10.5px)
+        
+        height: 35px;
+        width: 50px;  
     }
-
+        
     .create {
         position: absolute;
         font-size: 10px;
@@ -226,7 +241,7 @@
     .contenedora {
         display: flex;
 
-        margin-top: 25%;
+        margin-top: 25vh;
     }
 
     .aboutimg {
@@ -281,9 +296,11 @@
 
 
     .banner {
+        
         width: 90vw;
         height: 20vh;
-        padding: 5%;
+        margin-top: 0%;
+       
 
 
     }
@@ -326,7 +343,7 @@
     .hh1 {
 
         position: relative;
-        margin-top: 32vh;
+        margin-top: 36vh;
 
         z-index: 1;
         font-size: 15px;
@@ -429,7 +446,7 @@
         margin-left: 18vw;
         margin-top: 10vh;
         z-index: 1;
-      
+
     }
 
     .linea {
@@ -527,7 +544,7 @@
         position: absolute;
         width: 100px;
         height: 100px;
-        bottom: 87vh;
+        bottom: 89vh;
 
         z-index: 1;
 
@@ -561,82 +578,92 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+       
+
+
 
 
     }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+       
+
+    }
+
 
     .link1 {
-        position: relative;
-        bottom: 30.2vh;
-        left: 36vw;
+        position: absolute;
+        top: 8vh;
+
+
+
         z-index: 1;
 
 
     }
 
-    .link1 :hover {
-        transform: scale(2, 2);
-    }
+    
 
     .link2 {
-        position: relative;
-        bottom: 26.5vh;
-        left: 10vw;
+        position: absolute;
+        top: 13vh;
+
+
         z-index: 1;
 
     }
 
-    .link2 :hover {
-        transform: scale(2, 2);
-    }
+    
 
     .link3 {
-        position: relative;
-        bottom: 22.7vh;
-        right: 15%;
+        position: absolute;
+        top: 17.8vh;
+
         z-index: 1;
 
     }
 
-    .link3 :hover {
-        transform: scale(2, 2);
-    }
+  
 
     .link4 {
-        position: relative;
-        bottom: 32.5vh;
-        left: 36vw;
+        position: absolute;
+        top: 22.7vh;
+
+
         z-index: 1;
 
     }
 
-    .link4 :hover {
-        transform: scale(2, 2);
-    }
 
     .link5 {
-        position: relative;
-        bottom: 28.7vh;
-        left: 11vw;
+        position: absolute;
+        top: 27.6vh;
+
         z-index: 1;
 
     }
 
-    .link5 :hover {
-        transform: scale(2, 2);
-    }
-    
+   
+
     .iconlink {
-        height: 13vh;
-        width: 25vw;
-        clip-path: inset(31px 10.5px 31px 10.5px)
+        
+        height: 35px;
+        width: 50px;  
     }
+        
+
+
+    
 
     .create {
-        position: absolute;
+       position: absolute;
         font-size: 10px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding-left: 35%;
+        padding-left: 43vw;
         margin-top: 1%;
 
     }
@@ -719,7 +746,7 @@
     .contenedora {
         display: flex;
 
-        margin-top: 25%;
+        margin-top: 25vh;
     }
 
     .aboutimg {
@@ -769,16 +796,10 @@
 
     }
 
-
-
-
-
     .banner {
         width: 90vw;
         height: 20vh;
-        padding: 5%;
-
-
+        padding: 0%;
     }
 
     .twoicecream {
@@ -794,7 +815,7 @@
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         width: 80vw;
-     
+
     }
 
     .mainm {
@@ -820,7 +841,7 @@
     .hh1 {
 
         position: relative;
-        margin-top: 32vh;
+        margin-top: 34vh;
 
         z-index: 1;
         font-size: 15px;
@@ -928,7 +949,7 @@
         width: 80vw;
     }
 
-    .h2R { 
+    .h2R {
         z-index: 1;
         font-size: 17px;
         margin-top: 19vh;
@@ -1045,7 +1066,7 @@
 
     .link1 {
         position: relative;
-        bottom: 13vh;
+        top: 2vh;
         left: 1vw;
         z-index: 1;
 
@@ -1058,8 +1079,8 @@
 
     .link2 {
         position: relative;
-        bottom: 13vh;
-        right: 2vw;
+        top: 2vh;
+        left: 1vh;
         z-index: 1;
 
     }
@@ -1070,8 +1091,8 @@
 
     .link3 {
         position: relative;
-        bottom: 13vh;
-        right: 5vw;
+        top: 2vh;
+       left: 1;
         z-index: 1;
 
     }
@@ -1082,8 +1103,8 @@
 
     .link4 {
         position: relative;
-        bottom: 13vh;
-        right: 8vw;
+        top: 2vh;
+        right: 0.6vw;
         z-index: 1;
 
     }
@@ -1094,8 +1115,8 @@
 
     .link5 {
         position: relative;
-        bottom: 13vh;
-        right: 11vw;
+        top: 2vh;
+        right: 1vw;
         z-index: 1;
 
     }
@@ -1109,8 +1130,9 @@
 
 
     .iconlink {
-        height: 18vh;
-        width: 10vw;
+        height: 6vh;
+        width: 8vw;
+        
     }
 
     .create {
@@ -1157,7 +1179,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 13px;
     }
-    
+
 
 
     .Phone {
@@ -1266,18 +1288,18 @@
     }
 
     .hh2 {
-        position: relative;
+        position: absolute;
         align-self: center;
-        top: 1%;
+     margin-top: 15vh;
         z-index: 1;
         font-size: 30px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     .hh1 {
-        position: relative;
+        position: absolute;
         align-self: center;
-        top: 3%;
+    margin-top: 10vh;
         z-index: 1;
         font-size: 30px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
