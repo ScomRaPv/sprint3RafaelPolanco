@@ -325,7 +325,8 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin-top: 30%;
+        margin-top: 22vh;
+        height:70vh ;
     }
 
 
@@ -394,7 +395,7 @@
         align-items: center;
         justify-content: space-around;
         margin-left: 2vw;
-        margin-top: 16vh;
+        margin-top: 22vh;
         padding-left: 1vh;
 
         background-color: palevioletred;
@@ -823,7 +824,8 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin-top: 30%;
+        margin-top: 22vh;
+        height:70vh ;
     }
 
 
@@ -891,7 +893,7 @@
         align-items: center;
         justify-content: space-around;
         margin-left: 2vw;
-        margin-top: 16vh;
+        margin-top: 20vh;
         padding-left: 1vh;
         background-color: palevioletred;
         z-index: 2;
